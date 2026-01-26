@@ -1,9 +1,5 @@
-jobs:
-  build:
-    strategy:
-      matrix:
-        include:
-          - board: nice_nano_v2
-            shield: lily58_left
-          - board: nice_nano_v2
-            shield: lily58_right
+include:
+  - board: nice_nano_v2
+    shield: lily58_left
+  - board: nice_nano_v2
+    shield: lily58_right
